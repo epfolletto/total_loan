@@ -1,989 +1,989 @@
-,date,weekday,holiday
-0,1/1/24,segunda-feira,Confraternização Universal
-1,12/2/24,segunda-feira,Carnaval
-2,13/2/24,terça-feira,Carnaval
-3,29/3/24,sexta-feira,Paixão de Cristo
-4,21/4/24,domingo,Tiradentes
-5,1/5/24,quarta-feira,Dia do Trabalho
-6,30/5/24,quinta-feira,Corpus Christi
-7,7/9/24,sábado,Independência do Brasil
-8,12/10/24,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-9,2/11/24,sábado,Finados
-10,15/11/24,sexta-feira,Proclamação da República
-11,20/11/24,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-12,25/12/24,quarta-feira,Natal
-13,1/1/25,quarta-feira,Confraternização Universal
-14,3/3/25,segunda-feira,Carnaval
-15,4/3/25,terça-feira,Carnaval
-16,18/4/25,sexta-feira,Paixão de Cristo
-17,21/4/25,segunda-feira,Tiradentes
-18,1/5/25,quinta-feira,Dia do Trabalho
-19,19/6/25,quinta-feira,Corpus Christi
-20,7/9/25,domingo,Independência do Brasil
-21,12/10/25,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-22,2/11/25,domingo,Finados
-23,15/11/25,sábado,Proclamação da República
-24,20/11/25,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-25,25/12/25,quinta-feira,Natal
-26,1/1/26,quinta-feira,Confraternização Universal
-27,16/2/26,segunda-feira,Carnaval
-28,17/2/26,terça-feira,Carnaval
-29,3/4/26,sexta-feira,Paixão de Cristo
-30,21/4/26,terça-feira,Tiradentes
-31,1/5/26,sexta-feira,Dia do Trabalho
-32,4/6/26,quinta-feira,Corpus Christi
-33,7/9/26,segunda-feira,Independência do Brasil
-34,12/10/26,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-35,2/11/26,segunda-feira,Finados
-36,15/11/26,domingo,Proclamação da República
-37,20/11/26,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-38,25/12/26,sexta-feira,Natal
-39,1/1/27,sexta-feira,Confraternização Universal
-40,8/2/27,segunda-feira,Carnaval
-41,9/2/27,terça-feira,Carnaval
-42,26/3/27,sexta-feira,Paixão de Cristo
-43,21/4/27,quarta-feira,Tiradentes
-44,1/5/27,sábado,Dia do Trabalho
-45,27/5/27,quinta-feira,Corpus Christi
-46,7/9/27,terça-feira,Independência do Brasil
-47,12/10/27,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-48,2/11/27,terça-feira,Finados
-49,15/11/27,segunda-feira,Proclamação da República
-50,20/11/27,sábado,Dia Nacional de Zumbi e da Consciência Negra
-51,25/12/27,sábado,Natal
-52,1/1/28,sábado,Confraternização Universal
-53,28/2/28,segunda-feira,Carnaval
-54,29/2/28,terça-feira,Carnaval
-55,14/4/28,sexta-feira,Paixão de Cristo
-56,21/4/28,sexta-feira,Tiradentes
-57,1/5/28,segunda-feira,Dia do Trabalho
-58,15/6/28,quinta-feira,Corpus Christi
-59,7/9/28,quinta-feira,Independência do Brasil
-60,12/10/28,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-61,2/11/28,quinta-feira,Finados
-62,15/11/28,quarta-feira,Proclamação da República
-63,20/11/28,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-64,25/12/28,segunda-feira,Natal
-65,1/1/29,segunda-feira,Confraternização Universal
-66,12/2/29,segunda-feira,Carnaval
-67,13/2/29,terça-feira,Carnaval
-68,30/3/29,sexta-feira,Paixão de Cristo
-69,21/4/29,sábado,Tiradentes
-70,1/5/29,terça-feira,Dia do Trabalho
-71,31/5/29,quinta-feira,Corpus Christi
-72,7/9/29,sexta-feira,Independência do Brasil
-73,12/10/29,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-74,2/11/29,sexta-feira,Finados
-75,15/11/29,quinta-feira,Proclamação da República
-76,20/11/29,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-77,25/12/29,terça-feira,Natal
-78,1/1/30,terça-feira,Confraternização Universal
-79,4/3/30,segunda-feira,Carnaval
-80,5/3/30,terça-feira,Carnaval
-81,19/4/30,sexta-feira,Paixão de Cristo
-82,21/4/30,domingo,Tiradentes
-83,1/5/30,quarta-feira,Dia do Trabalho
-84,20/6/30,quinta-feira,Corpus Christi
-85,7/9/30,sábado,Independência do Brasil
-86,12/10/30,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-87,2/11/30,sábado,Finados
-88,15/11/30,sexta-feira,Proclamação da República
-89,20/11/30,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-90,25/12/30,quarta-feira,Natal
-91,1/1/31,quarta-feira,Confraternização Universal
-92,24/2/31,segunda-feira,Carnaval
-93,25/2/31,terça-feira,Carnaval
-94,11/4/31,sexta-feira,Paixão de Cristo
-95,21/4/31,segunda-feira,Tiradentes
-96,1/5/31,quinta-feira,Dia do Trabalho
-97,12/6/31,quinta-feira,Corpus Christi
-98,7/9/31,domingo,Independência do Brasil
-99,12/10/31,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-100,2/11/31,domingo,Finados
-101,15/11/31,sábado,Proclamação da República
-102,20/11/31,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-103,25/12/31,quinta-feira,Natal
-104,1/1/32,quinta-feira,Confraternização Universal
-105,9/2/32,segunda-feira,Carnaval
-106,10/2/32,terça-feira,Carnaval
-107,26/3/32,sexta-feira,Paixão de Cristo
-108,21/4/32,quarta-feira,Tiradentes
-109,1/5/32,sábado,Dia do Trabalho
-110,27/5/32,quinta-feira,Corpus Christi
-111,7/9/32,terça-feira,Independência do Brasil
-112,12/10/32,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-113,2/11/32,terça-feira,Finados
-114,15/11/32,segunda-feira,Proclamação da República
-115,20/11/32,sábado,Dia Nacional de Zumbi e da Consciência Negra
-116,25/12/32,sábado,Natal
-117,1/1/33,sábado,Confraternização Universal
-118,28/2/33,segunda-feira,Carnaval
-119,1/3/33,terça-feira,Carnaval
-120,15/4/33,sexta-feira,Paixão de Cristo
-121,21/4/33,quinta-feira,Tiradentes
-122,1/5/33,domingo,Dia do Trabalho
-123,16/6/33,quinta-feira,Corpus Christi
-124,7/9/33,quarta-feira,Independência do Brasil
-125,12/10/33,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-126,2/11/33,quarta-feira,Finados
-127,15/11/33,terça-feira,Proclamação da República
-128,20/11/33,domingo,Dia Nacional de Zumbi e da Consciência Negra
-129,25/12/33,domingo,Natal
-130,1/1/34,domingo,Confraternização Universal
-131,20/2/34,segunda-feira,Carnaval
-132,21/2/34,terça-feira,Carnaval
-133,7/4/34,sexta-feira,Paixão de Cristo
-134,21/4/34,sexta-feira,Tiradentes
-135,1/5/34,segunda-feira,Dia do Trabalho
-136,8/6/34,quinta-feira,Corpus Christi
-137,7/9/34,quinta-feira,Independência do Brasil
-138,12/10/34,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-139,2/11/34,quinta-feira,Finados
-140,15/11/34,quarta-feira,Proclamação da República
-141,20/11/34,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-142,25/12/34,segunda-feira,Natal
-143,1/1/35,segunda-feira,Confraternização Universal
-144,5/2/35,segunda-feira,Carnaval
-145,6/2/35,terça-feira,Carnaval
-146,23/3/35,sexta-feira,Paixão de Cristo
-147,21/4/35,sábado,Tiradentes
-148,1/5/35,terça-feira,Dia do Trabalho
-149,24/5/35,quinta-feira,Corpus Christi
-150,7/9/35,sexta-feira,Independência do Brasil
-151,12/10/35,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-152,2/11/35,sexta-feira,Finados
-153,15/11/35,quinta-feira,Proclamação da República
-154,20/11/35,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-155,25/12/35,terça-feira,Natal
-156,1/1/36,terça-feira,Confraternização Universal
-157,25/2/36,segunda-feira,Carnaval
-158,26/2/36,terça-feira,Carnaval
-159,11/4/36,sexta-feira,Paixão de Cristo
-160,21/4/36,segunda-feira,Tiradentes
-161,1/5/36,quinta-feira,Dia do Trabalho
-162,12/6/36,quinta-feira,Corpus Christi
-163,7/9/36,domingo,Independência do Brasil
-164,12/10/36,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-165,2/11/36,domingo,Finados
-166,15/11/36,sábado,Proclamação da República
-167,20/11/36,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-168,25/12/36,quinta-feira,Natal
-169,1/1/37,quinta-feira,Confraternização Universal
-170,16/2/37,segunda-feira,Carnaval
-171,17/2/37,terça-feira,Carnaval
-172,3/4/37,sexta-feira,Paixão de Cristo
-173,21/4/37,terça-feira,Tiradentes
-174,1/5/37,sexta-feira,Dia do Trabalho
-175,4/6/37,quinta-feira,Corpus Christi
-176,7/9/37,segunda-feira,Independência do Brasil
-177,12/10/37,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-178,2/11/37,segunda-feira,Finados
-179,15/11/37,domingo,Proclamação da República
-180,20/11/37,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-181,25/12/37,sexta-feira,Natal
-182,1/1/38,sexta-feira,Confraternização Universal
-183,8/3/38,segunda-feira,Carnaval
-184,9/3/38,terça-feira,Carnaval
-185,21/4/38,quarta-feira,Tiradentes
-186,23/4/38,sexta-feira,Paixão de Cristo
-187,1/5/38,sábado,Dia do Trabalho
-188,24/6/38,quinta-feira,Corpus Christi
-189,7/9/38,terça-feira,Independência do Brasil
-190,12/10/38,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-191,2/11/38,terça-feira,Finados
-192,15/11/38,segunda-feira,Proclamação da República
-193,20/11/38,sábado,Dia Nacional de Zumbi e da Consciência Negra
-194,25/12/38,sábado,Natal
-195,1/1/39,sábado,Confraternização Universal
-196,21/2/39,segunda-feira,Carnaval
-197,22/2/39,terça-feira,Carnaval
-198,8/4/39,sexta-feira,Paixão de Cristo
-199,21/4/39,quinta-feira,Tiradentes
-200,1/5/39,domingo,Dia do Trabalho
-201,9/6/39,quinta-feira,Corpus Christi
-202,7/9/39,quarta-feira,Independência do Brasil
-203,12/10/39,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-204,2/11/39,quarta-feira,Finados
-205,15/11/39,terça-feira,Proclamação da República
-206,20/11/39,domingo,Dia Nacional de Zumbi e da Consciência Negra
-207,25/12/39,domingo,Natal
-208,1/1/40,domingo,Confraternização Universal
-209,13/2/40,segunda-feira,Carnaval
-210,14/2/40,terça-feira,Carnaval
-211,30/3/40,sexta-feira,Paixão de Cristo
-212,21/4/40,sábado,Tiradentes
-213,1/5/40,terça-feira,Dia do Trabalho
-214,31/5/40,quinta-feira,Corpus Christi
-215,7/9/40,sexta-feira,Independência do Brasil
-216,12/10/40,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-217,2/11/40,sexta-feira,Finados
-218,15/11/40,quinta-feira,Proclamação da República
-219,20/11/40,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-220,25/12/40,terça-feira,Natal
-221,1/1/41,terça-feira,Confraternização Universal
-222,4/3/41,segunda-feira,Carnaval
-223,5/3/41,terça-feira,Carnaval
-224,19/4/41,sexta-feira,Paixão de Cristo
-225,21/4/41,domingo,Tiradentes
-226,1/5/41,quarta-feira,Dia do Trabalho
-227,20/6/41,quinta-feira,Corpus Christi
-228,7/9/41,sábado,Independência do Brasil
-229,12/10/41,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-230,2/11/41,sábado,Finados
-231,15/11/41,sexta-feira,Proclamação da República
-232,20/11/41,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-233,25/12/41,quarta-feira,Natal
-234,1/1/42,quarta-feira,Confraternização Universal
-235,17/2/42,segunda-feira,Carnaval
-236,18/2/42,terça-feira,Carnaval
-237,4/4/42,sexta-feira,Paixão de Cristo
-238,21/4/42,segunda-feira,Tiradentes
-239,1/5/42,quinta-feira,Dia do Trabalho
-240,5/6/42,quinta-feira,Corpus Christi
-241,7/9/42,domingo,Independência do Brasil
-242,12/10/42,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-243,2/11/42,domingo,Finados
-244,15/11/42,sábado,Proclamação da República
-245,20/11/42,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-246,25/12/42,quinta-feira,Natal
-247,1/1/43,quinta-feira,Confraternização Universal
-248,9/2/43,segunda-feira,Carnaval
-249,10/2/43,terça-feira,Carnaval
-250,27/3/43,sexta-feira,Paixão de Cristo
-251,21/4/43,terça-feira,Tiradentes
-252,1/5/43,sexta-feira,Dia do Trabalho
-253,28/5/43,quinta-feira,Corpus Christi
-254,7/9/43,segunda-feira,Independência do Brasil
-255,12/10/43,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-256,2/11/43,segunda-feira,Finados
-257,15/11/43,domingo,Proclamação da República
-258,20/11/43,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-259,25/12/43,sexta-feira,Natal
-260,1/1/44,sexta-feira,Confraternização Universal
-261,29/2/44,segunda-feira,Carnaval
-262,1/3/44,terça-feira,Carnaval
-263,15/4/44,sexta-feira,Paixão de Cristo
-264,21/4/44,quinta-feira,Tiradentes
-265,1/5/44,domingo,Dia do Trabalho
-266,16/6/44,quinta-feira,Corpus Christi
-267,7/9/44,quarta-feira,Independência do Brasil
-268,12/10/44,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-269,2/11/44,quarta-feira,Finados
-270,15/11/44,terça-feira,Proclamação da República
-271,20/11/44,domingo,Dia Nacional de Zumbi e da Consciência Negra
-272,25/12/44,domingo,Natal
-273,1/1/45,domingo,Confraternização Universal
-274,20/2/45,segunda-feira,Carnaval
-275,21/2/45,terça-feira,Carnaval
-276,7/4/45,sexta-feira,Paixão de Cristo
-277,21/4/45,sexta-feira,Tiradentes
-278,1/5/45,segunda-feira,Dia do Trabalho
-279,8/6/45,quinta-feira,Corpus Christi
-280,7/9/45,quinta-feira,Independência do Brasil
-281,12/10/45,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-282,2/11/45,quinta-feira,Finados
-283,15/11/45,quarta-feira,Proclamação da República
-284,20/11/45,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-285,25/12/45,segunda-feira,Natal
-286,1/1/46,segunda-feira,Confraternização Universal
-287,5/2/46,segunda-feira,Carnaval
-288,6/2/46,terça-feira,Carnaval
-289,23/3/46,sexta-feira,Paixão de Cristo
-290,21/4/46,sábado,Tiradentes
-291,1/5/46,terça-feira,Dia do Trabalho
-292,24/5/46,quinta-feira,Corpus Christi
-293,7/9/46,sexta-feira,Independência do Brasil
-294,12/10/46,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-295,2/11/46,sexta-feira,Finados
-296,15/11/46,quinta-feira,Proclamação da República
-297,20/11/46,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-298,25/12/46,terça-feira,Natal
-299,1/1/47,terça-feira,Confraternização Universal
-300,25/2/47,segunda-feira,Carnaval
-301,26/2/47,terça-feira,Carnaval
-302,12/4/47,sexta-feira,Paixão de Cristo
-303,21/4/47,domingo,Tiradentes
-304,1/5/47,quarta-feira,Dia do Trabalho
-305,13/6/47,quinta-feira,Corpus Christi
-306,7/9/47,sábado,Independência do Brasil
-307,12/10/47,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-308,2/11/47,sábado,Finados
-309,15/11/47,sexta-feira,Proclamação da República
-310,20/11/47,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-311,25/12/47,quarta-feira,Natal
-312,1/1/48,quarta-feira,Confraternização Universal
-313,17/2/48,segunda-feira,Carnaval
-314,18/2/48,terça-feira,Carnaval
-315,3/4/48,sexta-feira,Paixão de Cristo
-316,21/4/48,terça-feira,Tiradentes
-317,1/5/48,sexta-feira,Dia do Trabalho
-318,4/6/48,quinta-feira,Corpus Christi
-319,7/9/48,segunda-feira,Independência do Brasil
-320,12/10/48,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-321,2/11/48,segunda-feira,Finados
-322,15/11/48,domingo,Proclamação da República
-323,20/11/48,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-324,25/12/48,sexta-feira,Natal
-325,1/1/49,sexta-feira,Confraternização Universal
-326,1/3/49,segunda-feira,Carnaval
-327,2/3/49,terça-feira,Carnaval
-328,16/4/49,sexta-feira,Paixão de Cristo
-329,21/4/49,quarta-feira,Tiradentes
-330,1/5/49,sábado,Dia do Trabalho
-331,17/6/49,quinta-feira,Corpus Christi
-332,7/9/49,terça-feira,Independência do Brasil
-333,12/10/49,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-334,2/11/49,terça-feira,Finados
-335,15/11/49,segunda-feira,Proclamação da República
-336,20/11/49,sábado,Dia Nacional de Zumbi e da Consciência Negra
-337,25/12/49,sábado,Natal
-338,1/1/50,sábado,Confraternização Universal
-339,21/2/50,segunda-feira,Carnaval
-340,22/2/50,terça-feira,Carnaval
-341,8/4/50,sexta-feira,Paixão de Cristo
-342,21/4/50,quinta-feira,Tiradentes
-343,1/5/50,domingo,Dia do Trabalho
-344,9/6/50,quinta-feira,Corpus Christi
-345,7/9/50,quarta-feira,Independência do Brasil
-346,12/10/50,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-347,2/11/50,quarta-feira,Finados
-348,15/11/50,terça-feira,Proclamação da República
-349,20/11/50,domingo,Dia Nacional de Zumbi e da Consciência Negra
-350,25/12/50,domingo,Natal
-351,1/1/51,domingo,Confraternização Universal
-352,13/2/51,segunda-feira,Carnaval
-353,14/2/51,terça-feira,Carnaval
-354,31/3/51,sexta-feira,Paixão de Cristo
-355,21/4/51,sexta-feira,Tiradentes
-356,1/5/51,segunda-feira,Dia do Trabalho
-357,1/6/51,quinta-feira,Corpus Christi
-358,7/9/51,quinta-feira,Independência do Brasil
-359,12/10/51,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-360,2/11/51,quinta-feira,Finados
-361,15/11/51,quarta-feira,Proclamação da República
-362,20/11/51,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-363,25/12/51,segunda-feira,Natal
-364,1/1/52,segunda-feira,Confraternização Universal
-365,4/3/52,segunda-feira,Carnaval
-366,5/3/52,terça-feira,Carnaval
-367,19/4/52,sexta-feira,Paixão de Cristo
-368,21/4/52,domingo,Tiradentes
-369,1/5/52,quarta-feira,Dia do Trabalho
-370,20/6/52,quinta-feira,Corpus Christi
-371,7/9/52,sábado,Independência do Brasil
-372,12/10/52,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-373,2/11/52,sábado,Finados
-374,15/11/52,sexta-feira,Proclamação da República
-375,20/11/52,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-376,25/12/52,quarta-feira,Natal
-377,1/1/53,quarta-feira,Confraternização Universal
-378,17/2/53,segunda-feira,Carnaval
-379,18/2/53,terça-feira,Carnaval
-380,4/4/53,sexta-feira,Paixão de Cristo
-381,21/4/53,segunda-feira,Tiradentes
-382,1/5/53,quinta-feira,Dia do Trabalho
-383,5/6/53,quinta-feira,Corpus Christi
-384,7/9/53,domingo,Independência do Brasil
-385,12/10/53,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-386,2/11/53,domingo,Finados
-387,15/11/53,sábado,Proclamação da República
-388,20/11/53,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-389,25/12/53,quinta-feira,Natal
-390,1/1/54,quinta-feira,Confraternização Universal
-391,9/2/54,segunda-feira,Carnaval
-392,10/2/54,terça-feira,Carnaval
-393,27/3/54,sexta-feira,Paixão de Cristo
-394,21/4/54,terça-feira,Tiradentes
-395,1/5/54,sexta-feira,Dia do Trabalho
-396,28/5/54,quinta-feira,Corpus Christi
-397,7/9/54,segunda-feira,Independência do Brasil
-398,12/10/54,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-399,2/11/54,segunda-feira,Finados
-400,15/11/54,domingo,Proclamação da República
-401,20/11/54,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-402,25/12/54,sexta-feira,Natal
-403,1/1/55,sexta-feira,Confraternização Universal
-404,1/3/55,segunda-feira,Carnaval
-405,2/3/55,terça-feira,Carnaval
-406,16/4/55,sexta-feira,Paixão de Cristo
-407,21/4/55,quarta-feira,Tiradentes
-408,1/5/55,sábado,Dia do Trabalho
-409,17/6/55,quinta-feira,Corpus Christi
-410,7/9/55,terça-feira,Independência do Brasil
-411,12/10/55,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-412,2/11/55,terça-feira,Finados
-413,15/11/55,segunda-feira,Proclamação da República
-414,20/11/55,sábado,Dia Nacional de Zumbi e da Consciência Negra
-415,25/12/55,sábado,Natal
-416,1/1/56,sábado,Confraternização Universal
-417,14/2/56,segunda-feira,Carnaval
-418,15/2/56,terça-feira,Carnaval
-419,31/3/56,sexta-feira,Paixão de Cristo
-420,21/4/56,sexta-feira,Tiradentes
-421,1/5/56,segunda-feira,Dia do Trabalho
-422,1/6/56,quinta-feira,Corpus Christi
-423,7/9/56,quinta-feira,Independência do Brasil
-424,12/10/56,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-425,2/11/56,quinta-feira,Finados
-426,15/11/56,quarta-feira,Proclamação da República
-427,20/11/56,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-428,25/12/56,segunda-feira,Natal
-429,1/1/57,segunda-feira,Confraternização Universal
-430,5/3/57,segunda-feira,Carnaval
-431,6/3/57,terça-feira,Carnaval
-432,20/4/57,sexta-feira,Paixão de Cristo
-433,21/4/57,sábado,Tiradentes
-434,1/5/57,terça-feira,Dia do Trabalho
-435,21/6/57,quinta-feira,Corpus Christi
-436,7/9/57,sexta-feira,Independência do Brasil
-437,12/10/57,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-438,2/11/57,sexta-feira,Finados
-439,15/11/57,quinta-feira,Proclamação da República
-440,20/11/57,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-441,25/12/57,terça-feira,Natal
-442,1/1/58,terça-feira,Confraternização Universal
-443,25/2/58,segunda-feira,Carnaval
-444,26/2/58,terça-feira,Carnaval
-445,12/4/58,sexta-feira,Paixão de Cristo
-446,21/4/58,domingo,Tiradentes
-447,1/5/58,quarta-feira,Dia do Trabalho
-448,13/6/58,quinta-feira,Corpus Christi
-449,7/9/58,sábado,Independência do Brasil
-450,12/10/58,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-451,2/11/58,sábado,Finados
-452,15/11/58,sexta-feira,Proclamação da República
-453,20/11/58,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-454,25/12/58,quarta-feira,Natal
-455,1/1/59,quarta-feira,Confraternização Universal
-456,10/2/59,segunda-feira,Carnaval
-457,11/2/59,terça-feira,Carnaval
-458,28/3/59,sexta-feira,Paixão de Cristo
-459,21/4/59,segunda-feira,Tiradentes
-460,1/5/59,quinta-feira,Dia do Trabalho
-461,29/5/59,quinta-feira,Corpus Christi
-462,7/9/59,domingo,Independência do Brasil
-463,12/10/59,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-464,2/11/59,domingo,Finados
-465,15/11/59,sábado,Proclamação da República
-466,20/11/59,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-467,25/12/59,quinta-feira,Natal
-468,1/1/60,quinta-feira,Confraternização Universal
-469,1/3/60,segunda-feira,Carnaval
-470,2/3/60,terça-feira,Carnaval
-471,16/4/60,sexta-feira,Paixão de Cristo
-472,21/4/60,quarta-feira,Tiradentes
-473,1/5/60,sábado,Dia do Trabalho
-474,17/6/60,quinta-feira,Corpus Christi
-475,7/9/60,terça-feira,Independência do Brasil
-476,12/10/60,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-477,2/11/60,terça-feira,Finados
-478,15/11/60,segunda-feira,Proclamação da República
-479,20/11/60,sábado,Dia Nacional de Zumbi e da Consciência Negra
-480,25/12/60,sábado,Natal
-481,1/1/61,sábado,Confraternização Universal
-482,21/2/61,segunda-feira,Carnaval
-483,22/2/61,terça-feira,Carnaval
-484,8/4/61,sexta-feira,Paixão de Cristo
-485,21/4/61,quinta-feira,Tiradentes
-486,1/5/61,domingo,Dia do Trabalho
-487,9/6/61,quinta-feira,Corpus Christi
-488,7/9/61,quarta-feira,Independência do Brasil
-489,12/10/61,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-490,2/11/61,quarta-feira,Finados
-491,15/11/61,terça-feira,Proclamação da República
-492,20/11/61,domingo,Dia Nacional de Zumbi e da Consciência Negra
-493,25/12/61,domingo,Natal
-494,1/1/62,domingo,Confraternização Universal
-495,6/2/62,segunda-feira,Carnaval
-496,7/2/62,terça-feira,Carnaval
-497,24/3/62,sexta-feira,Paixão de Cristo
-498,21/4/62,sexta-feira,Tiradentes
-499,1/5/62,segunda-feira,Dia do Trabalho
-500,25/5/62,quinta-feira,Corpus Christi
-501,7/9/62,quinta-feira,Independência do Brasil
-502,12/10/62,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-503,2/11/62,quinta-feira,Finados
-504,15/11/62,quarta-feira,Proclamação da República
-505,20/11/62,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-506,25/12/62,segunda-feira,Natal
-507,1/1/63,segunda-feira,Confraternização Universal
-508,26/2/63,segunda-feira,Carnaval
-509,27/2/63,terça-feira,Carnaval
-510,13/4/63,sexta-feira,Paixão de Cristo
-511,21/4/63,sábado,Tiradentes
-512,1/5/63,terça-feira,Dia do Trabalho
-513,14/6/63,quinta-feira,Corpus Christi
-514,7/9/63,sexta-feira,Independência do Brasil
-515,12/10/63,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-516,2/11/63,sexta-feira,Finados
-517,15/11/63,quinta-feira,Proclamação da República
-518,20/11/63,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-519,25/12/63,terça-feira,Natal
-520,1/1/64,terça-feira,Confraternização Universal
-521,18/2/64,segunda-feira,Carnaval
-522,19/2/64,terça-feira,Carnaval
-523,4/4/64,sexta-feira,Paixão de Cristo
-524,21/4/64,segunda-feira,Tiradentes
-525,1/5/64,quinta-feira,Dia do Trabalho
-526,5/6/64,quinta-feira,Corpus Christi
-527,7/9/64,domingo,Independência do Brasil
-528,12/10/64,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-529,2/11/64,domingo,Finados
-530,15/11/64,sábado,Proclamação da República
-531,20/11/64,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-532,25/12/64,quinta-feira,Natal
-533,1/1/65,quinta-feira,Confraternização Universal
-534,9/2/65,segunda-feira,Carnaval
-535,10/2/65,terça-feira,Carnaval
-536,27/3/65,sexta-feira,Paixão de Cristo
-537,21/4/65,terça-feira,Tiradentes
-538,1/5/65,sexta-feira,Dia do Trabalho
-539,28/5/65,quinta-feira,Corpus Christi
-540,7/9/65,segunda-feira,Independência do Brasil
-541,12/10/65,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-542,2/11/65,segunda-feira,Finados
-543,15/11/65,domingo,Proclamação da República
-544,20/11/65,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-545,25/12/65,sexta-feira,Natal
-546,1/1/66,sexta-feira,Confraternização Universal
-547,22/2/66,segunda-feira,Carnaval
-548,23/2/66,terça-feira,Carnaval
-549,9/4/66,sexta-feira,Paixão de Cristo
-550,21/4/66,quarta-feira,Tiradentes
-551,1/5/66,sábado,Dia do Trabalho
-552,10/6/66,quinta-feira,Corpus Christi
-553,7/9/66,terça-feira,Independência do Brasil
-554,12/10/66,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-555,2/11/66,terça-feira,Finados
-556,15/11/66,segunda-feira,Proclamação da República
-557,20/11/66,sábado,Dia Nacional de Zumbi e da Consciência Negra
-558,25/12/66,sábado,Natal
-559,1/1/67,sábado,Confraternização Universal
-560,14/2/67,segunda-feira,Carnaval
-561,15/2/67,terça-feira,Carnaval
-562,1/4/67,sexta-feira,Paixão de Cristo
-563,21/4/67,quinta-feira,Tiradentes
-564,1/5/67,domingo,Dia do Trabalho
-565,2/6/67,quinta-feira,Corpus Christi
-566,7/9/67,quarta-feira,Independência do Brasil
-567,12/10/67,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-568,2/11/67,quarta-feira,Finados
-569,15/11/67,terça-feira,Proclamação da República
-570,20/11/67,domingo,Dia Nacional de Zumbi e da Consciência Negra
-571,25/12/67,domingo,Natal
-572,1/1/68,domingo,Confraternização Universal
-573,5/3/68,segunda-feira,Carnaval
-574,6/3/68,terça-feira,Carnaval
-575,20/4/68,sexta-feira,Paixão de Cristo
-576,21/4/68,sábado,Tiradentes
-577,1/5/68,terça-feira,Dia do Trabalho
-578,21/6/68,quinta-feira,Corpus Christi
-579,7/9/68,sexta-feira,Independência do Brasil
-580,12/10/68,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-581,2/11/68,sexta-feira,Finados
-582,15/11/68,quinta-feira,Proclamação da República
-583,20/11/68,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-584,25/12/68,terça-feira,Natal
-585,1/1/69,terça-feira,Confraternização Universal
-586,25/2/69,segunda-feira,Carnaval
-587,26/2/69,terça-feira,Carnaval
-588,12/4/69,sexta-feira,Paixão de Cristo
-589,21/4/69,domingo,Tiradentes
-590,1/5/69,quarta-feira,Dia do Trabalho
-591,13/6/69,quinta-feira,Corpus Christi
-592,7/9/69,sábado,Independência do Brasil
-593,12/10/69,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-594,2/11/69,sábado,Finados
-595,15/11/69,sexta-feira,Proclamação da República
-596,20/11/69,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-597,25/12/69,quarta-feira,Natal
-598,1/1/70,quarta-feira,Confraternização Universal
-599,10/2/70,segunda-feira,Carnaval
-600,11/2/70,terça-feira,Carnaval
-601,28/3/70,sexta-feira,Paixão de Cristo
-602,21/4/70,segunda-feira,Tiradentes
-603,1/5/70,quinta-feira,Dia do Trabalho
-604,29/5/70,quinta-feira,Corpus Christi
-605,7/9/70,domingo,Independência do Brasil
-606,12/10/70,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-607,2/11/70,domingo,Finados
-608,15/11/70,sábado,Proclamação da República
-609,20/11/70,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-610,25/12/70,quinta-feira,Natal
-611,1/1/71,quinta-feira,Confraternização Universal
-612,2/3/71,segunda-feira,Carnaval
-613,3/3/71,terça-feira,Carnaval
-614,17/4/71,sexta-feira,Paixão de Cristo
-615,21/4/71,terça-feira,Tiradentes
-616,1/5/71,sexta-feira,Dia do Trabalho
-617,18/6/71,quinta-feira,Corpus Christi
-618,7/9/71,segunda-feira,Independência do Brasil
-619,12/10/71,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-620,2/11/71,segunda-feira,Finados
-621,15/11/71,domingo,Proclamação da República
-622,20/11/71,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-623,25/12/71,sexta-feira,Natal
-624,1/1/72,sexta-feira,Confraternização Universal
-625,22/2/72,segunda-feira,Carnaval
-626,23/2/72,terça-feira,Carnaval
-627,8/4/72,sexta-feira,Paixão de Cristo
-628,21/4/72,quinta-feira,Tiradentes
-629,1/5/72,domingo,Dia do Trabalho
-630,9/6/72,quinta-feira,Corpus Christi
-631,7/9/72,quarta-feira,Independência do Brasil
-632,12/10/72,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-633,2/11/72,quarta-feira,Finados
-634,15/11/72,terça-feira,Proclamação da República
-635,20/11/72,domingo,Dia Nacional de Zumbi e da Consciência Negra
-636,25/12/72,domingo,Natal
-637,1/1/73,domingo,Confraternização Universal
-638,6/2/73,segunda-feira,Carnaval
-639,7/2/73,terça-feira,Carnaval
-640,24/3/73,sexta-feira,Paixão de Cristo
-641,21/4/73,sexta-feira,Tiradentes
-642,1/5/73,segunda-feira,Dia do Trabalho
-643,25/5/73,quinta-feira,Corpus Christi
-644,7/9/73,quinta-feira,Independência do Brasil
-645,12/10/73,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-646,2/11/73,quinta-feira,Finados
-647,15/11/73,quarta-feira,Proclamação da República
-648,20/11/73,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-649,25/12/73,segunda-feira,Natal
-650,1/1/74,segunda-feira,Confraternização Universal
-651,26/2/74,segunda-feira,Carnaval
-652,27/2/74,terça-feira,Carnaval
-653,13/4/74,sexta-feira,Paixão de Cristo
-654,21/4/74,sábado,Tiradentes
-655,1/5/74,terça-feira,Dia do Trabalho
-656,14/6/74,quinta-feira,Corpus Christi
-657,7/9/74,sexta-feira,Independência do Brasil
-658,12/10/74,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-659,2/11/74,sexta-feira,Finados
-660,15/11/74,quinta-feira,Proclamação da República
-661,20/11/74,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-662,25/12/74,terça-feira,Natal
-663,1/1/75,terça-feira,Confraternização Universal
-664,18/2/75,segunda-feira,Carnaval
-665,19/2/75,terça-feira,Carnaval
-666,5/4/75,sexta-feira,Paixão de Cristo
-667,21/4/75,domingo,Tiradentes
-668,1/5/75,quarta-feira,Dia do Trabalho
-669,6/6/75,quinta-feira,Corpus Christi
-670,7/9/75,sábado,Independência do Brasil
-671,12/10/75,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-672,2/11/75,sábado,Finados
-673,15/11/75,sexta-feira,Proclamação da República
-674,20/11/75,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-675,25/12/75,quarta-feira,Natal
-676,1/1/76,quarta-feira,Confraternização Universal
-677,2/3/76,segunda-feira,Carnaval
-678,3/3/76,terça-feira,Carnaval
-679,17/4/76,sexta-feira,Paixão de Cristo
-680,21/4/76,terça-feira,Tiradentes
-681,1/5/76,sexta-feira,Dia do Trabalho
-682,18/6/76,quinta-feira,Corpus Christi
-683,7/9/76,segunda-feira,Independência do Brasil
-684,12/10/76,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-685,2/11/76,segunda-feira,Finados
-686,15/11/76,domingo,Proclamação da República
-687,20/11/76,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-688,25/12/76,sexta-feira,Natal
-689,1/1/77,sexta-feira,Confraternização Universal
-690,22/2/77,segunda-feira,Carnaval
-691,23/2/77,terça-feira,Carnaval
-692,9/4/77,sexta-feira,Paixão de Cristo
-693,21/4/77,quarta-feira,Tiradentes
-694,1/5/77,sábado,Dia do Trabalho
-695,10/6/77,quinta-feira,Corpus Christi
-696,7/9/77,terça-feira,Independência do Brasil
-697,12/10/77,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-698,2/11/77,terça-feira,Finados
-699,15/11/77,segunda-feira,Proclamação da República
-700,20/11/77,sábado,Dia Nacional de Zumbi e da Consciência Negra
-701,25/12/77,sábado,Natal
-702,1/1/78,sábado,Confraternização Universal
-703,14/2/78,segunda-feira,Carnaval
-704,15/2/78,terça-feira,Carnaval
-705,1/4/78,sexta-feira,Paixão de Cristo
-706,21/4/78,quinta-feira,Tiradentes
-707,1/5/78,domingo,Dia do Trabalho
-708,2/6/78,quinta-feira,Corpus Christi
-709,7/9/78,quarta-feira,Independência do Brasil
-710,12/10/78,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-711,2/11/78,quarta-feira,Finados
-712,15/11/78,terça-feira,Proclamação da República
-713,20/11/78,domingo,Dia Nacional de Zumbi e da Consciência Negra
-714,25/12/78,domingo,Natal
-715,1/1/79,domingo,Confraternização Universal
-716,6/3/79,segunda-feira,Carnaval
-717,7/3/79,terça-feira,Carnaval
-718,21/4/79,sexta-feira,Paixão de Cristo
-719,21/4/79,sexta-feira,Tiradentes
-720,1/5/79,segunda-feira,Dia do Trabalho
-721,22/6/79,quinta-feira,Corpus Christi
-722,7/9/79,quinta-feira,Independência do Brasil
-723,12/10/79,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-724,2/11/79,quinta-feira,Finados
-725,15/11/79,quarta-feira,Proclamação da República
-726,20/11/79,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-727,25/12/79,segunda-feira,Natal
-728,1/1/80,segunda-feira,Confraternização Universal
-729,19/2/80,segunda-feira,Carnaval
-730,20/2/80,terça-feira,Carnaval
-731,5/4/80,sexta-feira,Paixão de Cristo
-732,21/4/80,domingo,Tiradentes
-733,1/5/80,quarta-feira,Dia do Trabalho
-734,6/6/80,quinta-feira,Corpus Christi
-735,7/9/80,sábado,Independência do Brasil
-736,12/10/80,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-737,2/11/80,sábado,Finados
-738,15/11/80,sexta-feira,Proclamação da República
-739,20/11/80,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-740,25/12/80,quarta-feira,Natal
-741,1/1/81,quarta-feira,Confraternização Universal
-742,10/2/81,segunda-feira,Carnaval
-743,11/2/81,terça-feira,Carnaval
-744,28/3/81,sexta-feira,Paixão de Cristo
-745,21/4/81,segunda-feira,Tiradentes
-746,1/5/81,quinta-feira,Dia do Trabalho
-747,29/5/81,quinta-feira,Corpus Christi
-748,7/9/81,domingo,Independência do Brasil
-749,12/10/81,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-750,2/11/81,domingo,Finados
-751,15/11/81,sábado,Proclamação da República
-752,20/11/81,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-753,25/12/81,quinta-feira,Natal
-754,1/1/82,quinta-feira,Confraternização Universal
-755,2/3/82,segunda-feira,Carnaval
-756,3/3/82,terça-feira,Carnaval
-757,17/4/82,sexta-feira,Paixão de Cristo
-758,21/4/82,terça-feira,Tiradentes
-759,1/5/82,sexta-feira,Dia do Trabalho
-760,18/6/82,quinta-feira,Corpus Christi
-761,7/9/82,segunda-feira,Independência do Brasil
-762,12/10/82,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-763,2/11/82,segunda-feira,Finados
-764,15/11/82,domingo,Proclamação da República
-765,20/11/82,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-766,25/12/82,sexta-feira,Natal
-767,1/1/83,sexta-feira,Confraternização Universal
-768,15/2/83,segunda-feira,Carnaval
-769,16/2/83,terça-feira,Carnaval
-770,2/4/83,sexta-feira,Paixão de Cristo
-771,21/4/83,quarta-feira,Tiradentes
-772,1/5/83,sábado,Dia do Trabalho
-773,3/6/83,quinta-feira,Corpus Christi
-774,7/9/83,terça-feira,Independência do Brasil
-775,12/10/83,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-776,2/11/83,terça-feira,Finados
-777,15/11/83,segunda-feira,Proclamação da República
-778,20/11/83,sábado,Dia Nacional de Zumbi e da Consciência Negra
-779,25/12/83,sábado,Natal
-780,1/1/84,sábado,Confraternização Universal
-781,7/2/84,segunda-feira,Carnaval
-782,8/2/84,terça-feira,Carnaval
-783,24/3/84,sexta-feira,Paixão de Cristo
-784,21/4/84,sexta-feira,Tiradentes
-785,1/5/84,segunda-feira,Dia do Trabalho
-786,25/5/84,quinta-feira,Corpus Christi
-787,7/9/84,quinta-feira,Independência do Brasil
-788,12/10/84,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-789,2/11/84,quinta-feira,Finados
-790,15/11/84,quarta-feira,Proclamação da República
-791,20/11/84,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-792,25/12/84,segunda-feira,Natal
-793,1/1/85,segunda-feira,Confraternização Universal
-794,26/2/85,segunda-feira,Carnaval
-795,27/2/85,terça-feira,Carnaval
-796,13/4/85,sexta-feira,Paixão de Cristo
-797,21/4/85,sábado,Tiradentes
-798,1/5/85,terça-feira,Dia do Trabalho
-799,14/6/85,quinta-feira,Corpus Christi
-800,7/9/85,sexta-feira,Independência do Brasil
-801,12/10/85,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-802,2/11/85,sexta-feira,Finados
-803,15/11/85,quinta-feira,Proclamação da República
-804,20/11/85,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-805,25/12/85,terça-feira,Natal
-806,1/1/86,terça-feira,Confraternização Universal
-807,11/2/86,segunda-feira,Carnaval
-808,12/2/86,terça-feira,Carnaval
-809,29/3/86,sexta-feira,Paixão de Cristo
-810,21/4/86,domingo,Tiradentes
-811,1/5/86,quarta-feira,Dia do Trabalho
-812,30/5/86,quinta-feira,Corpus Christi
-813,7/9/86,sábado,Independência do Brasil
-814,12/10/86,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-815,2/11/86,sábado,Finados
-816,15/11/86,sexta-feira,Proclamação da República
-817,20/11/86,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-818,25/12/86,quarta-feira,Natal
-819,1/1/87,quarta-feira,Confraternização Universal
-820,3/3/87,segunda-feira,Carnaval
-821,4/3/87,terça-feira,Carnaval
-822,18/4/87,sexta-feira,Paixão de Cristo
-823,21/4/87,segunda-feira,Tiradentes
-824,1/5/87,quinta-feira,Dia do Trabalho
-825,19/6/87,quinta-feira,Corpus Christi
-826,7/9/87,domingo,Independência do Brasil
-827,12/10/87,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-828,2/11/87,domingo,Finados
-829,15/11/87,sábado,Proclamação da República
-830,20/11/87,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-831,25/12/87,quinta-feira,Natal
-832,1/1/88,quinta-feira,Confraternização Universal
-833,23/2/88,segunda-feira,Carnaval
-834,24/2/88,terça-feira,Carnaval
-835,9/4/88,sexta-feira,Paixão de Cristo
-836,21/4/88,quarta-feira,Tiradentes
-837,1/5/88,sábado,Dia do Trabalho
-838,10/6/88,quinta-feira,Corpus Christi
-839,7/9/88,terça-feira,Independência do Brasil
-840,12/10/88,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-841,2/11/88,terça-feira,Finados
-842,15/11/88,segunda-feira,Proclamação da República
-843,20/11/88,sábado,Dia Nacional de Zumbi e da Consciência Negra
-844,25/12/88,sábado,Natal
-845,1/1/89,sábado,Confraternização Universal
-846,14/2/89,segunda-feira,Carnaval
-847,15/2/89,terça-feira,Carnaval
-848,1/4/89,sexta-feira,Paixão de Cristo
-849,21/4/89,quinta-feira,Tiradentes
-850,1/5/89,domingo,Dia do Trabalho
-851,2/6/89,quinta-feira,Corpus Christi
-852,7/9/89,quarta-feira,Independência do Brasil
-853,12/10/89,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-854,2/11/89,quarta-feira,Finados
-855,15/11/89,terça-feira,Proclamação da República
-856,20/11/89,domingo,Dia Nacional de Zumbi e da Consciência Negra
-857,25/12/89,domingo,Natal
-858,1/1/90,domingo,Confraternização Universal
-859,27/2/90,segunda-feira,Carnaval
-860,28/2/90,terça-feira,Carnaval
-861,14/4/90,sexta-feira,Paixão de Cristo
-862,21/4/90,sexta-feira,Tiradentes
-863,1/5/90,segunda-feira,Dia do Trabalho
-864,15/6/90,quinta-feira,Corpus Christi
-865,7/9/90,quinta-feira,Independência do Brasil
-866,12/10/90,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-867,2/11/90,quinta-feira,Finados
-868,15/11/90,quarta-feira,Proclamação da República
-869,20/11/90,segunda-feira,Dia Nacional de Zumbi e da Consciência Negra
-870,25/12/90,segunda-feira,Natal
-871,1/1/91,segunda-feira,Confraternização Universal
-872,19/2/91,segunda-feira,Carnaval
-873,20/2/91,terça-feira,Carnaval
-874,6/4/91,sexta-feira,Paixão de Cristo
-875,21/4/91,sábado,Tiradentes
-876,1/5/91,terça-feira,Dia do Trabalho
-877,7/6/91,quinta-feira,Corpus Christi
-878,7/9/91,sexta-feira,Independência do Brasil
-879,12/10/91,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-880,2/11/91,sexta-feira,Finados
-881,15/11/91,quinta-feira,Proclamação da República
-882,20/11/91,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-883,25/12/91,terça-feira,Natal
-884,1/1/92,terça-feira,Confraternização Universal
-885,11/2/92,segunda-feira,Carnaval
-886,12/2/92,terça-feira,Carnaval
-887,28/3/92,sexta-feira,Paixão de Cristo
-888,21/4/92,segunda-feira,Tiradentes
-889,1/5/92,quinta-feira,Dia do Trabalho
-890,29/5/92,quinta-feira,Corpus Christi
-891,7/9/92,domingo,Independência do Brasil
-892,12/10/92,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-893,2/11/92,domingo,Finados
-894,15/11/92,sábado,Proclamação da República
-895,20/11/92,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-896,25/12/92,quinta-feira,Natal
-897,1/1/93,quinta-feira,Confraternização Universal
-898,23/2/93,segunda-feira,Carnaval
-899,24/2/93,terça-feira,Carnaval
-900,10/4/93,sexta-feira,Paixão de Cristo
-901,21/4/93,terça-feira,Tiradentes
-902,1/5/93,sexta-feira,Dia do Trabalho
-903,11/6/93,quinta-feira,Corpus Christi
-904,7/9/93,segunda-feira,Independência do Brasil
-905,12/10/93,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-906,2/11/93,segunda-feira,Finados
-907,15/11/93,domingo,Proclamação da República
-908,20/11/93,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-909,25/12/93,sexta-feira,Natal
-910,1/1/94,sexta-feira,Confraternização Universal
-911,15/2/94,segunda-feira,Carnaval
-912,16/2/94,terça-feira,Carnaval
-913,2/4/94,sexta-feira,Paixão de Cristo
-914,21/4/94,quarta-feira,Tiradentes
-915,1/5/94,sábado,Dia do Trabalho
-916,3/6/94,quinta-feira,Corpus Christi
-917,7/9/94,terça-feira,Independência do Brasil
-918,12/10/94,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-919,2/11/94,terça-feira,Finados
-920,15/11/94,segunda-feira,Proclamação da República
-921,20/11/94,sábado,Dia Nacional de Zumbi e da Consciência Negra
-922,25/12/94,sábado,Natal
-923,1/1/95,sábado,Confraternização Universal
-924,7/3/95,segunda-feira,Carnaval
-925,8/3/95,terça-feira,Carnaval
-926,21/4/95,quinta-feira,Tiradentes
-927,22/4/95,sexta-feira,Paixão de Cristo
-928,1/5/95,domingo,Dia do Trabalho
-929,23/6/95,quinta-feira,Corpus Christi
-930,7/9/95,quarta-feira,Independência do Brasil
-931,12/10/95,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-932,2/11/95,quarta-feira,Finados
-933,15/11/95,terça-feira,Proclamação da República
-934,20/11/95,domingo,Dia Nacional de Zumbi e da Consciência Negra
-935,25/12/95,domingo,Natal
-936,1/1/96,domingo,Confraternização Universal
-937,27/2/96,segunda-feira,Carnaval
-938,28/2/96,terça-feira,Carnaval
-939,13/4/96,sexta-feira,Paixão de Cristo
-940,21/4/96,sábado,Tiradentes
-941,1/5/96,terça-feira,Dia do Trabalho
-942,14/6/96,quinta-feira,Corpus Christi
-943,7/9/96,sexta-feira,Independência do Brasil
-944,12/10/96,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-945,2/11/96,sexta-feira,Finados
-946,15/11/96,quinta-feira,Proclamação da República
-947,20/11/96,terça-feira,Dia Nacional de Zumbi e da Consciência Negra
-948,25/12/96,terça-feira,Natal
-949,1/1/97,terça-feira,Confraternização Universal
-950,11/2/97,segunda-feira,Carnaval
-951,12/2/97,terça-feira,Carnaval
-952,29/3/97,sexta-feira,Paixão de Cristo
-953,21/4/97,domingo,Tiradentes
-954,1/5/97,quarta-feira,Dia do Trabalho
-955,30/5/97,quinta-feira,Corpus Christi
-956,7/9/97,sábado,Independência do Brasil
-957,12/10/97,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
-958,2/11/97,sábado,Finados
-959,15/11/97,sexta-feira,Proclamação da República
-960,20/11/97,quarta-feira,Dia Nacional de Zumbi e da Consciência Negra
-961,25/12/97,quarta-feira,Natal
-962,1/1/98,quarta-feira,Confraternização Universal
-963,3/3/98,segunda-feira,Carnaval
-964,4/3/98,terça-feira,Carnaval
-965,18/4/98,sexta-feira,Paixão de Cristo
-966,21/4/98,segunda-feira,Tiradentes
-967,1/5/98,quinta-feira,Dia do Trabalho
-968,19/6/98,quinta-feira,Corpus Christi
-969,7/9/98,domingo,Independência do Brasil
-970,12/10/98,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
-971,2/11/98,domingo,Finados
-972,15/11/98,sábado,Proclamação da República
-973,20/11/98,quinta-feira,Dia Nacional de Zumbi e da Consciência Negra
-974,25/12/98,quinta-feira,Natal
-975,1/1/99,quinta-feira,Confraternização Universal
-976,23/2/99,segunda-feira,Carnaval
-977,24/2/99,terça-feira,Carnaval
-978,10/4/99,sexta-feira,Paixão de Cristo
-979,21/4/99,terça-feira,Tiradentes
-980,1/5/99,sexta-feira,Dia do Trabalho
-981,11/6/99,quinta-feira,Corpus Christi
-982,7/9/99,quarta-feira,Independência do Brasil
-983,12/10/99,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
-984,2/11/99,segunda-feira,Finados
-985,15/11/99,domingo,Proclamação da República
-986,20/11/99,sexta-feira,Dia Nacional de Zumbi e da Consciência Negra
-987,25/12/99,sexta-feira,Natal
+date
+1/1/2024
+12/2/2024
+13/2/2024
+29/3/2024
+21/4/2024
+1/5/2024
+30/5/2024
+7/9/2024
+12/10/2024
+2/11/2024
+15/11/2024
+20/11/2024
+25/12/2024
+1/1/2025
+3/3/2025
+4/3/2025
+18/4/2025
+21/4/2025
+1/5/2025
+19/6/2025
+7/9/2025
+12/10/2025
+2/11/2025
+15/11/2025
+20/11/2025
+25/12/2025
+1/1/2026
+16/2/2026
+17/2/2026
+3/4/2026
+21/4/2026
+1/5/2026
+4/6/2026
+7/9/2026
+12/10/2026
+2/11/2026
+15/11/2026
+20/11/2026
+25/12/2026
+1/1/2027
+8/2/2027
+9/2/2027
+26/3/2027
+21/4/2027
+1/5/2027
+27/5/2027
+7/9/2027
+12/10/2027
+2/11/2027
+15/11/2027
+20/11/2027
+25/12/2027
+1/1/2028
+28/2/2028
+29/2/2028
+14/4/2028
+21/4/2028
+1/5/2028
+15/6/2028
+7/9/2028
+12/10/2028
+2/11/2028
+15/11/2028
+20/11/2028
+25/12/2028
+1/1/2029
+12/2/2029
+13/2/2029
+30/3/2029
+21/4/2029
+1/5/2029
+31/5/2029
+7/9/2029
+12/10/2029
+2/11/2029
+15/11/2029
+20/11/2029
+25/12/2029
+1/1/2030
+4/3/2030
+5/3/2030
+19/4/2030
+21/4/2030
+1/5/2030
+20/6/2030
+7/9/2030
+12/10/2030
+2/11/2030
+15/11/2030
+20/11/2030
+25/12/2030
+1/1/2031
+24/2/2031
+25/2/2031
+11/4/2031
+21/4/2031
+1/5/2031
+12/6/2031
+7/9/2031
+12/10/2031
+2/11/2031
+15/11/2031
+20/11/2031
+25/12/2031
+1/1/2032
+9/2/2032
+10/2/2032
+26/3/2032
+21/4/2032
+1/5/2032
+27/5/2032
+7/9/2032
+12/10/2032
+2/11/2032
+15/11/2032
+20/11/2032
+25/12/2032
+1/1/2033
+28/2/2033
+1/3/2033
+15/4/2033
+21/4/2033
+1/5/2033
+16/6/2033
+7/9/2033
+12/10/2033
+2/11/2033
+15/11/2033
+20/11/2033
+25/12/2033
+1/1/2034
+20/2/2034
+21/2/2034
+7/4/2034
+21/4/2034
+1/5/2034
+8/6/2034
+7/9/2034
+12/10/2034
+2/11/2034
+15/11/2034
+20/11/2034
+25/12/2034
+1/1/2035
+5/2/2035
+6/2/2035
+23/3/2035
+21/4/2035
+1/5/2035
+24/5/2035
+7/9/2035
+12/10/2035
+2/11/2035
+15/11/2035
+20/11/2035
+25/12/2035
+1/1/2036
+25/2/2036
+26/2/2036
+11/4/2036
+21/4/2036
+1/5/2036
+12/6/2036
+7/9/2036
+12/10/2036
+2/11/2036
+15/11/2036
+20/11/2036
+25/12/2036
+1/1/2037
+16/2/2037
+17/2/2037
+3/4/2037
+21/4/2037
+1/5/2037
+4/6/2037
+7/9/2037
+12/10/2037
+2/11/2037
+15/11/2037
+20/11/2037
+25/12/2037
+1/1/2038
+8/3/2038
+9/3/2038
+21/4/2038
+23/4/2038
+1/5/2038
+24/6/2038
+7/9/2038
+12/10/2038
+2/11/2038
+15/11/2038
+20/11/2038
+25/12/2038
+1/1/2039
+21/2/2039
+22/2/2039
+8/4/2039
+21/4/2039
+1/5/2039
+9/6/2039
+7/9/2039
+12/10/2039
+2/11/2039
+15/11/2039
+20/11/2039
+25/12/2039
+1/1/2040
+13/2/2040
+14/2/2040
+30/3/2040
+21/4/2040
+1/5/2040
+31/5/2040
+7/9/2040
+12/10/2040
+2/11/2040
+15/11/2040
+20/11/2040
+25/12/2040
+1/1/2041
+4/3/2041
+5/3/2041
+19/4/2041
+21/4/2041
+1/5/2041
+20/6/2041
+7/9/2041
+12/10/2041
+2/11/2041
+15/11/2041
+20/11/2041
+25/12/2041
+1/1/2042
+17/2/2042
+18/2/2042
+4/4/2042
+21/4/2042
+1/5/2042
+5/6/2042
+7/9/2042
+12/10/2042
+2/11/2042
+15/11/2042
+20/11/2042
+25/12/2042
+1/1/2043
+9/2/2043
+10/2/2043
+27/3/2043
+21/4/2043
+1/5/2043
+28/5/2043
+7/9/2043
+12/10/2043
+2/11/2043
+15/11/2043
+20/11/2043
+25/12/2043
+1/1/2044
+29/2/2044
+1/3/2044
+15/4/2044
+21/4/2044
+1/5/2044
+16/6/2044
+7/9/2044
+12/10/2044
+2/11/2044
+15/11/2044
+20/11/2044
+25/12/2044
+1/1/2045
+20/2/2045
+21/2/2045
+7/4/2045
+21/4/2045
+1/5/2045
+8/6/2045
+7/9/2045
+12/10/2045
+2/11/2045
+15/11/2045
+20/11/2045
+25/12/2045
+1/1/2046
+5/2/2046
+6/2/2046
+23/3/2046
+21/4/2046
+1/5/2046
+24/5/2046
+7/9/2046
+12/10/2046
+2/11/2046
+15/11/2046
+20/11/2046
+25/12/2046
+1/1/2047
+25/2/2047
+26/2/2047
+12/4/2047
+21/4/2047
+1/5/2047
+13/6/2047
+7/9/2047
+12/10/2047
+2/11/2047
+15/11/2047
+20/11/2047
+25/12/2047
+1/1/2048
+17/2/2048
+18/2/2048
+3/4/2048
+21/4/2048
+1/5/2048
+4/6/2048
+7/9/2048
+12/10/2048
+2/11/2048
+15/11/2048
+20/11/2048
+25/12/2048
+1/1/2049
+1/3/2049
+2/3/2049
+16/4/2049
+21/4/2049
+1/5/2049
+17/6/2049
+7/9/2049
+12/10/2049
+2/11/2049
+15/11/2049
+20/11/2049
+25/12/2049
+1/1/2050
+21/2/2050
+22/2/2050
+8/4/2050
+21/4/2050
+1/5/2050
+9/6/2050
+7/9/2050
+12/10/2050
+2/11/2050
+15/11/2050
+20/11/2050
+25/12/2050
+1/1/2051
+13/2/2051
+14/2/2051
+31/3/2051
+21/4/2051
+1/5/2051
+1/6/2051
+7/9/2051
+12/10/2051
+2/11/2051
+15/11/2051
+20/11/2051
+25/12/2051
+1/1/2052
+4/3/2052
+5/3/2052
+19/4/2052
+21/4/2052
+1/5/2052
+20/6/2052
+7/9/2052
+12/10/2052
+2/11/2052
+15/11/2052
+20/11/2052
+25/12/2052
+1/1/2053
+17/2/2053
+18/2/2053
+4/4/2053
+21/4/2053
+1/5/2053
+5/6/2053
+7/9/2053
+12/10/2053
+2/11/2053
+15/11/2053
+20/11/2053
+25/12/2053
+1/1/2054
+9/2/2054
+10/2/2054
+27/3/2054
+21/4/2054
+1/5/2054
+28/5/2054
+7/9/2054
+12/10/2054
+2/11/2054
+15/11/2054
+20/11/2054
+25/12/2054
+1/1/2055
+1/3/2055
+2/3/2055
+16/4/2055
+21/4/2055
+1/5/2055
+17/6/2055
+7/9/2055
+12/10/2055
+2/11/2055
+15/11/2055
+20/11/2055
+25/12/2055
+1/1/2056
+14/2/2056
+15/2/2056
+31/3/2056
+21/4/2056
+1/5/2056
+1/6/2056
+7/9/2056
+12/10/2056
+2/11/2056
+15/11/2056
+20/11/2056
+25/12/2056
+1/1/2057
+5/3/2057
+6/3/2057
+20/4/2057
+21/4/2057
+1/5/2057
+21/6/2057
+7/9/2057
+12/10/2057
+2/11/2057
+15/11/2057
+20/11/2057
+25/12/2057
+1/1/2058
+25/2/2058
+26/2/2058
+12/4/2058
+21/4/2058
+1/5/2058
+13/6/2058
+7/9/2058
+12/10/2058
+2/11/2058
+15/11/2058
+20/11/2058
+25/12/2058
+1/1/2059
+10/2/2059
+11/2/2059
+28/3/2059
+21/4/2059
+1/5/2059
+29/5/2059
+7/9/2059
+12/10/2059
+2/11/2059
+15/11/2059
+20/11/2059
+25/12/2059
+1/1/2060
+1/3/2060
+2/3/2060
+16/4/2060
+21/4/2060
+1/5/2060
+17/6/2060
+7/9/2060
+12/10/2060
+2/11/2060
+15/11/2060
+20/11/2060
+25/12/2060
+1/1/2061
+21/2/2061
+22/2/2061
+8/4/2061
+21/4/2061
+1/5/2061
+9/6/2061
+7/9/2061
+12/10/2061
+2/11/2061
+15/11/2061
+20/11/2061
+25/12/2061
+1/1/2062
+6/2/2062
+7/2/2062
+24/3/2062
+21/4/2062
+1/5/2062
+25/5/2062
+7/9/2062
+12/10/2062
+2/11/2062
+15/11/2062
+20/11/2062
+25/12/2062
+1/1/2063
+26/2/2063
+27/2/2063
+13/4/2063
+21/4/2063
+1/5/2063
+14/6/2063
+7/9/2063
+12/10/2063
+2/11/2063
+15/11/2063
+20/11/2063
+25/12/2063
+1/1/2064
+18/2/2064
+19/2/2064
+4/4/2064
+21/4/2064
+1/5/2064
+5/6/2064
+7/9/2064
+12/10/2064
+2/11/2064
+15/11/2064
+20/11/2064
+25/12/2064
+1/1/2065
+9/2/2065
+10/2/2065
+27/3/2065
+21/4/2065
+1/5/2065
+28/5/2065
+7/9/2065
+12/10/2065
+2/11/2065
+15/11/2065
+20/11/2065
+25/12/2065
+1/1/2066
+22/2/2066
+23/2/2066
+9/4/2066
+21/4/2066
+1/5/2066
+10/6/2066
+7/9/2066
+12/10/2066
+2/11/2066
+15/11/2066
+20/11/2066
+25/12/2066
+1/1/2067
+14/2/2067
+15/2/2067
+1/4/2067
+21/4/2067
+1/5/2067
+2/6/2067
+7/9/2067
+12/10/2067
+2/11/2067
+15/11/2067
+20/11/2067
+25/12/2067
+1/1/2068
+5/3/2068
+6/3/2068
+20/4/2068
+21/4/2068
+1/5/2068
+21/6/2068
+7/9/2068
+12/10/2068
+2/11/2068
+15/11/2068
+20/11/2068
+25/12/2068
+1/1/2069
+25/2/2069
+26/2/2069
+12/4/2069
+21/4/2069
+1/5/2069
+13/6/2069
+7/9/2069
+12/10/2069
+2/11/2069
+15/11/2069
+20/11/2069
+25/12/2069
+1/1/2070
+10/2/2070
+11/2/2070
+28/3/2070
+21/4/2070
+1/5/2070
+29/5/2070
+7/9/2070
+12/10/2070
+2/11/2070
+15/11/2070
+20/11/2070
+25/12/2070
+1/1/2071
+2/3/2071
+3/3/2071
+17/4/2071
+21/4/2071
+1/5/2071
+18/6/2071
+7/9/2071
+12/10/2071
+2/11/2071
+15/11/2071
+20/11/2071
+25/12/2071
+1/1/2072
+22/2/2072
+23/2/2072
+8/4/2072
+21/4/2072
+1/5/2072
+9/6/2072
+7/9/2072
+12/10/2072
+2/11/2072
+15/11/2072
+20/11/2072
+25/12/2072
+1/1/2073
+6/2/2073
+7/2/2073
+24/3/2073
+21/4/2073
+1/5/2073
+25/5/2073
+7/9/2073
+12/10/2073
+2/11/2073
+15/11/2073
+20/11/2073
+25/12/2073
+1/1/2074
+26/2/2074
+27/2/2074
+13/4/2074
+21/4/2074
+1/5/2074
+14/6/2074
+7/9/2074
+12/10/2074
+2/11/2074
+15/11/2074
+20/11/2074
+25/12/2074
+1/1/2075
+18/2/2075
+19/2/2075
+5/4/2075
+21/4/2075
+1/5/2075
+6/6/2075
+7/9/2075
+12/10/2075
+2/11/2075
+15/11/2075
+20/11/2075
+25/12/2075
+1/1/2076
+2/3/2076
+3/3/2076
+17/4/2076
+21/4/2076
+1/5/2076
+18/6/2076
+7/9/2076
+12/10/2076
+2/11/2076
+15/11/2076
+20/11/2076
+25/12/2076
+1/1/2077
+22/2/2077
+23/2/2077
+9/4/2077
+21/4/2077
+1/5/2077
+10/6/2077
+7/9/2077
+12/10/2077
+2/11/2077
+15/11/2077
+20/11/2077
+25/12/2077
+1/1/2078
+14/2/2078
+15/2/2078
+1/4/2078
+21/4/2078
+1/5/2078
+2/6/2078
+7/9/2078
+12/10/2078
+2/11/2078
+15/11/2078
+20/11/2078
+25/12/2078
+1/1/2079
+6/3/2079
+7/3/2079
+21/4/2079
+21/4/2079
+1/5/2079
+22/6/2079
+7/9/2079
+12/10/2079
+2/11/2079
+15/11/2079
+20/11/2079
+25/12/2079
+1/1/2080
+19/2/2080
+20/2/2080
+5/4/2080
+21/4/2080
+1/5/2080
+6/6/2080
+7/9/2080
+12/10/2080
+2/11/2080
+15/11/2080
+20/11/2080
+25/12/2080
+1/1/2081
+10/2/2081
+11/2/2081
+28/3/2081
+21/4/2081
+1/5/2081
+29/5/2081
+7/9/2081
+12/10/2081
+2/11/2081
+15/11/2081
+20/11/2081
+25/12/2081
+1/1/2082
+2/3/2082
+3/3/2082
+17/4/2082
+21/4/2082
+1/5/2082
+18/6/2082
+7/9/2082
+12/10/2082
+2/11/2082
+15/11/2082
+20/11/2082
+25/12/2082
+1/1/2083
+15/2/2083
+16/2/2083
+2/4/2083
+21/4/2083
+1/5/2083
+3/6/2083
+7/9/2083
+12/10/2083
+2/11/2083
+15/11/2083
+20/11/2083
+25/12/2083
+1/1/2084
+7/2/2084
+8/2/2084
+24/3/2084
+21/4/2084
+1/5/2084
+25/5/2084
+7/9/2084
+12/10/2084
+2/11/2084
+15/11/2084
+20/11/2084
+25/12/2084
+1/1/2085
+26/2/2085
+27/2/2085
+13/4/2085
+21/4/2085
+1/5/2085
+14/6/2085
+7/9/2085
+12/10/2085
+2/11/2085
+15/11/2085
+20/11/2085
+25/12/2085
+1/1/2086
+11/2/2086
+12/2/2086
+29/3/2086
+21/4/2086
+1/5/2086
+30/5/2086
+7/9/2086
+12/10/2086
+2/11/2086
+15/11/2086
+20/11/2086
+25/12/2086
+1/1/2087
+3/3/2087
+4/3/2087
+18/4/2087
+21/4/2087
+1/5/2087
+19/6/2087
+7/9/2087
+12/10/2087
+2/11/2087
+15/11/2087
+20/11/2087
+25/12/2087
+1/1/2088
+23/2/2088
+24/2/2088
+9/4/2088
+21/4/2088
+1/5/2088
+10/6/2088
+7/9/2088
+12/10/2088
+2/11/2088
+15/11/2088
+20/11/2088
+25/12/2088
+1/1/2089
+14/2/2089
+15/2/2089
+1/4/2089
+21/4/2089
+1/5/2089
+2/6/2089
+7/9/2089
+12/10/2089
+2/11/2089
+15/11/2089
+20/11/2089
+25/12/2089
+1/1/2090
+27/2/2090
+28/2/2090
+14/4/2090
+21/4/2090
+1/5/2090
+15/6/2090
+7/9/2090
+12/10/2090
+2/11/2090
+15/11/2090
+20/11/2090
+25/12/2090
+1/1/2091
+19/2/2091
+20/2/2091
+6/4/2091
+21/4/2091
+1/5/2091
+7/6/2091
+7/9/2091
+12/10/2091
+2/11/2091
+15/11/2091
+20/11/2091
+25/12/2091
+1/1/2092
+11/2/2092
+12/2/2092
+28/3/2092
+21/4/2092
+1/5/2092
+29/5/2092
+7/9/2092
+12/10/2092
+2/11/2092
+15/11/2092
+20/11/2092
+25/12/2092
+1/1/2093
+23/2/2093
+24/2/2093
+10/4/2093
+21/4/2093
+1/5/2093
+11/6/2093
+7/9/2093
+12/10/2093
+2/11/2093
+15/11/2093
+20/11/2093
+25/12/2093
+1/1/2094
+15/2/2094
+16/2/2094
+2/4/2094
+21/4/2094
+1/5/2094
+3/6/2094
+7/9/2094
+12/10/2094
+2/11/2094
+15/11/2094
+20/11/2094
+25/12/2094
+1/1/2095
+7/3/2095
+8/3/2095
+21/4/2095
+22/4/2095
+1/5/2095
+23/6/2095
+7/9/2095
+12/10/2095
+2/11/2095
+15/11/2095
+20/11/2095
+25/12/2095
+1/1/2096
+27/2/2096
+28/2/2096
+13/4/2096
+21/4/2096
+1/5/2096
+14/6/2096
+7/9/2096
+12/10/2096
+2/11/2096
+15/11/2096
+20/11/2096
+25/12/2096
+1/1/2097
+11/2/2097
+12/2/2097
+29/3/2097
+21/4/2097
+1/5/2097
+30/5/2097
+7/9/2097
+12/10/2097
+2/11/2097
+15/11/2097
+20/11/2097
+25/12/2097
+1/1/2098
+3/3/2098
+4/3/2098
+18/4/2098
+21/4/2098
+1/5/2098
+19/6/2098
+7/9/2098
+12/10/2098
+2/11/2098
+15/11/2098
+20/11/2098
+25/12/2098
+1/1/2099
+23/2/2099
+24/2/2099
+10/4/2099
+21/4/2099
+1/5/2099
+11/6/2099
+7/9/2099
+12/10/2099
+2/11/2099
+15/11/2099
+20/11/2099
+25/12/2099
