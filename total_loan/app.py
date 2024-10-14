@@ -1,10 +1,12 @@
+from total_loan.total_loan_sac import calculate_total_loan_sac
 from utils import get_business_date_from
 
-def total_loan_price(**dados):
+def total_loan(**dados):
     contract_value = dados.get('contract_value')
     debit_balance = dados.get('debit_balance')
     term = dados.get('term')
     annual_rate = dados.get('annual_rate')
+    amortization_system = dados.get('amortization_system')
     has_itbi = dados.get('has_itbi')
     has_costs = dados.get('has_costs')
     has_iof = dados.get('has_iof')
@@ -33,6 +35,14 @@ def total_loan_price(**dados):
     days = []
     for i in range(1, len(dates)):
         days.append((dates[i]-dates[i-1]).days)
+
+    if amortization_system == 'sac':
+        p = calculate_total_loan_sac(days, debit_balance, term, basic_iof,
+                                 fee_additional_iof, has_iof, fee_volpi,
+                                 fee_baas, itbi, custas)
+
+        return p
+
 
     def calculate_pmt(p):
         return float(p * monthly_rate / (1 - (1 + monthly_rate) ** (-term)))
@@ -118,82 +128,3 @@ def total_loan_price(**dados):
 
     return p2
 
-
-
-    # iteracao = 0
-    # tol1 = 0.001
-    # tol2 = 0.001
-    # convergencia_3 = False
-    # resumo = []
-    # while not convergencia_3:
-    #     iteracao += 1
-    #
-    #     convergencia_1 = False
-    #     li = debit_balance
-    #     ls = 1.5 * debit_balance
-    #     p_i = (li + ls) / 2
-    #     count_1 = 0
-    #     while not convergencia_1:
-    #         count_1 += 1
-    #         tac = (fee_volpi / 100 + fee_baas / 100) * p_i
-    #         iof1 = p_i - debit_balance - itbi - custas - tac
-    #         if iteracao == 1:
-    #             iof2, sd, pmt = create_flow(float(p_i))
-    #         else:
-    #             iof2, sd, pmt = create_flow(float(p_i), pmt)
-    #
-    #         convergencia_1 = abs(iof1 - iof2) < tol1
-    #         if iof1 <= iof2:
-    #             li = p_i
-    #         else:
-    #             ls = p_i
-    #         p_i = (li + ls) / 2
-    #
-    #     resumo.append({
-    #         'iteracao': iteracao,
-    #         'while1': count_1,
-    #         'li': li,
-    #         'ls': ls,
-    #     })
-    #
-    #     # print(iof1, iof2, iof1-iof2)
-    #
-    #     if abs(sd) < tol1:
-    #         return p_i, resumo
-    #
-    #     convergencia_2 = False
-    #     if sd > 0:
-    #         # li_2 = calculate_pmt(p_i)
-    #         # ls_2 = li_2 * 1.5
-    #         li_2 = 0
-    #         ls_2 = debit_balance
-    #     else:
-    #         # ls_2 = pmt
-    #         # li_2 = ls_2 * .5
-    #         ls_2 = debit_balance
-    #         li_2 = 0
-    #     pmt = (li_2 + ls_2) / 2
-    #     count_2 = 0
-    #     while not convergencia_2:
-    #         count_2 += 1
-    #         iof2, sd, pmt = create_flow(float(p_i), pmt)
-    #         # if iteracao == 9:
-    #         #     print('li:', li_2, 'ls:', ls_2, 'sd:', sd, 'pi:', p_i,
-    #         #           'pmt:', pmt)
-    #         if sd > 0:
-    #             li_2 = pmt
-    #         else:
-    #             ls_2 = pmt
-    #         convergencia_2 = abs(sd) < tol2
-    #         pmt = (li_2 + ls_2) / 2
-    #
-    #     # print(abs(iof1 - iof2), abs(sd), abs(iof1 - iof2) < tol1, abs(sd) < tol2)
-    #     # print('------------------------------------')
-    #     # time.sleep(1)
-    #     convergencia_3 = abs(iof1 - iof2) < tol1 and abs(sd) < tol2
-    #     resumo[iteracao-1]['while2'] = count_2
-    #     resumo[iteracao-1]['p_i'] = p_i
-    #     resumo[iteracao-1]['li_2'] = li_2
-    #     resumo[iteracao-1]['ls_2'] = ls_2
-    #
-    # return p_i, resumo
