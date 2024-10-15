@@ -632,6 +632,6 @@ for i in lista_entrada:
           '|',
           'meu:', f"{p_i:.2f}",
           '|',
-          'dif:', f"{summary[count]['qitech'] - p_i:.2f}"
+          'dif:', f"{summary[count]['qitech'] - p_i:.3f}"
     )
     count += 1
