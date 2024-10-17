@@ -7,9 +7,10 @@ def total_loan(**dados):
     debit_balance = dados.get('debit_balance')
     term = dados.get('term')
     annual_rate = dados.get('annual_rate')
-    amortization_system = dados.get('amortization_system')
+    amortization_system = dados.get('amortization_system').lower()
     has_itbi = dados.get('has_itbi')
     has_costs = dados.get('has_costs')
+    costas_default_simulation = dados.get('costas_default_simulation')
     has_iof = dados.get('has_iof')
     fee_itbi = dados.get('fee_itbi')
     fee_costs = dados.get('fee_costs')
@@ -27,8 +28,9 @@ def total_loan(**dados):
         basic_iof = fee_basic_daily_iof_pf
     else:
         basic_iof = fee_basic_daily_iof_pj
+
     itbi = (fee_itbi / 100) * contract_value if has_itbi else 0
-    custas = (fee_costs / 100) * contract_value if has_costs else 300
+    custas = (fee_costs / 100) * contract_value if has_costs else costas_default_simulation
     monthly_rate = (1 + annual_rate / 100) ** (1/12)-1
 
     dates, nod = get_business_date_from(date_0, date_1, term)

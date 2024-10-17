@@ -1,6 +1,5 @@
-from datetime import date, timedelta
+from datetime import timedelta
 from dateutil.relativedelta import relativedelta, MO
-import pandas as pd
 from holidays import holidays
 
 
@@ -21,15 +20,16 @@ def get_business_date_from(date_0, date_1, financing_term):
             if dt2.weekday() > 4:
                 dt2 += relativedelta(weekday=MO(1))
 
-            if ((dt2.day, dt2.month, dt2.year) in holidays or (dt2.day, dt2.month) in holidays):
+            if (dt2.day, dt2.month, dt2.year) in holidays or (dt2.day, dt2.month) in holidays:
                 dt2 += timedelta(days=1)
 
         dates.append(dt2)
         # dates.append(dt2.strftime('%d/%m/%Y'))
+        # dates.append(dt2.strftime('%m/%d/%Y'))
 
     number_of_days = {
         1: 31,
-        2: 30,
+        2: 29,
         3: 31,
         4: 30,
         5: 31,
@@ -40,5 +40,7 @@ def get_business_date_from(date_0, date_1, financing_term):
         10: 31,
         11: 30,
         12: 31,
+        0: 31,
     }
+
     return dates, number_of_days[date_1.month - 1]

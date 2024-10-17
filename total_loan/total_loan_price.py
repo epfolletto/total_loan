@@ -65,7 +65,7 @@ def calculate_total_loan_price(days, debit_balance, term, basic_iof,
 
 
     iteracao = 0
-    tol1 = 0.001
+    tol1 = 0.0001
     tol2 = 0.001
     convergencia_3 = False
     resumo = []
