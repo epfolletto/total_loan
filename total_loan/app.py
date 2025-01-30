@@ -1,3 +1,4 @@
+# UTILIZADO COM A ENTRADA DE DADOS ANTIGAS (SEM DIFERENCIAR PF E PJ).
 from total_loan.total_loan_sac import calculate_total_loan_sac
 from total_loan.total_loan_price import calculate_total_loan_price
 from utils import get_business_date_from
@@ -10,7 +11,8 @@ def total_loan(**dados):
     amortization_system = dados.get('amortization_system').lower()
     has_itbi = dados.get('has_itbi')
     has_costs = dados.get('has_costs')
-    costas_default_simulation = dados.get('costas_default_simulation')
+    costs_default_simulation = dados.get('costs_default_simulation')
+    itbi_default_simulation = dados.get('itbi_default_simulation')
     has_iof = dados.get('has_iof')
     fee_itbi = dados.get('fee_itbi')
     fee_costs = dados.get('fee_costs')
@@ -24,13 +26,9 @@ def total_loan(**dados):
     date_1 = dados.get('date_1')
 
     # pre-processamento
-    if legal_nature == 'pf':
-        basic_iof = fee_basic_daily_iof_pf
-    else:
-        basic_iof = fee_basic_daily_iof_pj
-
-    itbi = (fee_itbi / 100) * contract_value if has_itbi else 0
-    custas = (fee_costs / 100) * contract_value if has_costs else costas_default_simulation
+    basic_iof = fee_basic_daily_iof_pf if legal_nature == 'pf' else fee_basic_daily_iof_pj
+    itbi = (fee_itbi / 100) * contract_value if has_itbi else itbi_default_simulation
+    custas = (fee_costs / 100) * contract_value if has_costs else costs_default_simulation
     monthly_rate = (1 + annual_rate / 100) ** (1/12)-1
 
     dates, nod = get_business_date_from(date_0, date_1, term)
