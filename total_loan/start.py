@@ -1,5 +1,7 @@
 from app import total_loan
 from datetime import date
+import time
+
 
 lista_entrada = [
     {'contract_value': 810108.98, 'debit_balance': 484480.98, 'term': 240, 'annual_rate': 11.50, 'amortization_system': 'price', 'has_itbi': True, 'has_costs': True, 'costas_default_simulation': 39695.34, 'has_iof': False, 'fee_itbi': 3.00, 'fee_costs': 1.90, 'fee_volpi': 5.00, 'fee_baas': 0.75, 'fee_additional_iof': 0.38, 'fee_basic_daily_iof_pf': 0.0082, 'fee_basic_daily_iof_pj': 0.0041, 'legal_nature': 'pf', 'date_0': date(2024, 2, 29), 'date_1': date(2024, 4, 22), 'total_loan_qitech': 556155.24, 'total_loan_qitech2': 556155.24, 'debt_id': 1307},
@@ -996,10 +998,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 10, 9),
-        'total_loan_qitech': 411041.66,
+        'total_loan_qitech': 411_041.66,
     },
     # p_2 [1]
     {
@@ -1018,10 +1022,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 12),
         'date_1': date(2024, 10, 14),
-        'total_loan_qitech': 411041.66,
+        'total_loan_qitech': 411_041.66,
     },
     # p_3 [2]
     {
@@ -1040,10 +1046,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 12),
         'date_1': date(2024, 10, 14),
-        'total_loan_qitech': 411041.66
+        'total_loan_qitech': 411_041.66
     },
     # p_4 [3]
     {
@@ -1062,6 +1070,8 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 12, 9),
@@ -1084,10 +1094,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 17),
         'date_1': date(2024, 2, 5),
-        'total_loan_qitech': 27052083.33
+        'total_loan_qitech': 2_705_2083.33
     },
     # p_6 [5]
     {
@@ -1106,10 +1118,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 10, 9),
-        'total_loan_qitech': 411041.66
+        'total_loan_qitech': 411_041.66
     },
     # p_iof_1 [6]
     {
@@ -1128,10 +1142,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
-        'date_0': date(2024, 4, 20),
+        'date_0': date(2024, 4, 22),
         'date_1': date(2024, 5, 20),
-        'total_loan_qitech': 425582.29
+        'total_loan_qitech': 425_572.53
     },
     # p_iof_2 [7]
     {
@@ -1150,10 +1166,12 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 5, 15),
         'date_1': date(2024, 5, 20),
-        'total_loan_qitech': 425448.28
+        'total_loan_qitech': 425_448.5
     },
     # p_c_iof_3 [8]
     {
@@ -1172,12 +1190,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
-        'date_0': date(2024, 7, 20),
+        'date_0': date(2024, 7, 22),
         'date_1': date(2024, 9, 20),
-        'total_loan_qitech': 425725.11
+        'total_loan_qitech': 425_717.09
     },
-    # p_c_iof_4 [9]
+    # p_c_iof_3_B [9]
     {
         'contract_value': 400_000,
         'debit_balance': 375_000,
@@ -1194,12 +1214,38 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2024, 7, 22),
+        'date_1': date(2024, 10, 21),
+        'total_loan_qitech': 425_839.13
+    },
+    # p_c_iof_4 [10]
+    {
+        'contract_value': 400_000,
+        'debit_balance': 375_000,
+        'term': 120,
+        'annual_rate': 7.99,
+        'amortization_system': 'price',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': True,
+        'fee_itbi': 3,
+        'fee_costs': 1.9,
+        'fee_volpi': 3.25,
+        'fee_baas': 0.75,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 5, 6),
         'date_1': date(2024, 7, 29),
-        'total_loan_qitech': 425817.96
+        'total_loan_qitech': 425_817.96
     },
-    # p_c_iof_5 [10]
+    # p_c_iof_5 [11]
     {
         'contract_value': 20_000_000,
         'debit_balance': 16_000_000,
@@ -1216,12 +1262,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 5, 6),
         'date_1': date(2024, 7, 29),
-        'total_loan_qitech': 18323337.94
+        'total_loan_qitech': 18_323_337.94
     },
-    # p_c_iof_6 [11]
+    # p_c_iof_6 [12]
     {
         'contract_value': 400_000,
         'debit_balance': 375_000,
@@ -1238,12 +1286,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 12, 30),
-        'total_loan_qitech': 425900.17
+        'total_loan_qitech': 425_900.17
     },
-    # p_c_iof_7 [12]
+    # p_c_iof_7 [13]
     {
         'contract_value': 60_000_000,
         'debit_balance': 55_590_000,
@@ -1260,12 +1310,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 12, 30),
-        'total_loan_qitech': 63188919.0
+        'total_loan_qitech': 63_188_919.0
     },
-    # p_c_iof_8 [13]
+    # p_c_iof_8 [14]
     {
         'contract_value': 24_900_000,
         'debit_balance': 17_846_000,
@@ -1282,12 +1334,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 8, 30),
         'date_1': date(2024, 11, 21),
-        'total_loan_qitech': 20583739.08
+        'total_loan_qitech': 20_583_739.08
     },
-    # p_c_iof_9 [14]
+    # p_c_iof_9 [15]
     {
         'contract_value': 100_000,
         'debit_balance': 80_000,
@@ -1304,12 +1358,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 7, 31),
         'date_1': date(2024, 10, 21),
-        'total_loan_qitech': 91382.84
+        'total_loan_qitech': 91_382.84
     },
-    # p_c_iof_10 (nati) [15]
+    # p_c_iof_10 (nati) [16]
     {
         'contract_value': 11_438_120.42,
         'debit_balance': 7_900_000,
@@ -1326,13 +1382,135 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 300,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pj',
         'date_0': date(2024, 9, 30),
         'date_1': date(2024, 11, 21),
         'total_loan_qitech': 8575770.56
     },
+    # p_c_iof_11 (debt 290) [17]
+    {
+        'contract_value': 701_914.37,
+        'debit_balance': 446_238.20,
+        'term': 240,
+        'annual_rate': 11,
+        'amortization_system': 'price',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': True,
+        'fee_itbi': 3,
+        'fee_costs': 2.2,
+        'fee_volpi': 2,
+        'fee_baas': 0.75,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2023, 2, 28),
+        'date_1': date(2023, 5, 22),
+        'total_loan_qitech': 514_223.67
+    },
+    # p_c_iof_12 [18]
+    {
+        'contract_value': 1_000_000,
+        'debit_balance': 500_000,
+        'term': 120,
+        'annual_rate': 7.99,
+        'amortization_system': 'price',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': True,
+        'fee_itbi': 3,
+        'fee_costs': 2.2,
+        'fee_volpi': 3.25,
+        'fee_baas': 0.7,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2025, 1, 31),
+        'date_1': date(2025, 3, 31),
+        'total_loan_qitech': 595_225.46
+    },
+    # p_c_iof_13 [19]
+    {
+        'contract_value': 4_560_425,
+        'debit_balance': 3_598_745,
+        'term': 120,
+        'annual_rate': 7.99,
+        'amortization_system': 'price',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': True,
+        'fee_itbi': 3,
+        'fee_costs': 2,
+        'fee_volpi': 3.25,
+        'fee_baas': 0.7,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2025, 7, 7),
+        'date_1': date(2025, 7, 23),
+        'total_loan_qitech': 4_124_284.08
+    },
+    # p_c_iof_14 [20]
+    {
+        'contract_value': 35_000_000,
+        'debit_balance': 25_000_000,
+        'term': 120,
+        'annual_rate': 10.89,
+        'amortization_system': 'price',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': True,
+        'fee_itbi': 3,
+        'fee_costs': 2.2,
+        'fee_volpi': 5.3,
+        'fee_baas': 0.7,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2025, 8, 4),
+        'date_1': date(2026, 3, 23),
+        'total_loan_qitech': 29_593_829.64
+    },
+    # p_c_14 [21]
+    {
+        'contract_value': 35_000_000,
+        'debit_balance': 25_000_000,
+        'term': 120,
+        'annual_rate': 10.89,
+        'amortization_system': 'price',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': False,
+        'fee_itbi': 3,
+        'fee_costs': 2.2,
+        'fee_volpi': 5.3,
+        'fee_baas': 0.7,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2025, 8, 4),
+        'date_1': date(2026, 3, 23),
+        'total_loan_qitech': 28_531_914.89
+    },
     # -------------------------------------------------------------------------
-    # s_1 [16]
+    # s_1 [22]
     {
         'contract_value': 400_000,
         'debit_balance': 375_000,
@@ -1349,12 +1527,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 6, 17),
         'date_1': date(2024, 7, 17),
         'total_loan_qitech': 411_041.66
     },
-    # s_2 [17]
+    # s_2 [23]
     {
         'contract_value': 70_568_447.85,
         'debit_balance': 64_782_442.98,
@@ -1371,12 +1551,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 6, 17),
         'date_1': date(2024, 7, 17),
         'total_loan_qitech': 71_083_642.63
     },
-    # s_3 [18]
+    # s_3 [24]
     {
         'contract_value': 400_000,
         'debit_balance': 375_000,
@@ -1393,12 +1575,38 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 10, 9),
         'total_loan_qitech': 411_041.66
     },
-    # s_iof_2 [19]
+    # s_c_1 [25]
+    {
+        'contract_value': 4_000_000,
+        'debit_balance': 1_400_000,
+        'term': 240,
+        'annual_rate': 7.99,
+        'amortization_system': 'sac',
+        'has_itbi': False,
+        'has_costs': False,
+        'has_iof': False,
+        'fee_itbi': 3,
+        'fee_costs': 1.9,
+        'fee_volpi': 3.75,
+        'fee_baas': 0.7,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 300,
+        'legal_nature': 'pf',
+        'date_0': date(2024, 12, 30),
+        'date_1': date(2025, 2, 20),
+        'total_loan_qitech': 1_465_515.43
+    },
+    # s_iof_2 [26]
     {
         'contract_value': 400_000,
         'debit_balance': 375_000,
@@ -1415,12 +1623,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 6, 17),
         'date_1': date(2024, 7, 17),
         'total_loan_qitech': 425_382.41
     },
-    # s_c_iof_3 [20]
+    # s_c_iof_3 [27]
     {
         'contract_value': 400_000,
         'debit_balance': 375_000,
@@ -1437,12 +1647,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 6, 17),
         'date_1': date(2024, 8, 28),
-        'total_loan_qitech': 425521.57
+        'total_loan_qitech': 425_521.57
     },
-    # s_c_iof_4 [21]
+    # s_c_iof_4 [28]
     {
         'contract_value': 42_000_000,
         'debit_balance': 31_700_000,
@@ -1459,12 +1671,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 7),
         'date_1': date(2024, 12, 27),
         'total_loan_qitech': 36_413_077.74
     },
-    # s_c_iof_5 [22]
+    # s_c_iof_5 [29]
     {
         'contract_value': 20_000_000,
         'debit_balance': 17_680_000,
@@ -1481,12 +1695,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 9, 9),
         'date_1': date(2024, 12, 27),
         'total_loan_qitech': 20_127_348.07
     },
-    # s_c_iof_6 [23]
+    # s_c_iof_6 [30]
     {
         'contract_value': 10_598_146.55,
         'debit_balance': 7_456_823.41,
@@ -1503,12 +1719,14 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pj',
         'date_0': date(2024, 12, 2),
         'date_1': date(2024, 12, 23),
         'total_loan_qitech': 8_472_239.51
     },
-    # s_c_iof_7 [24]
+    # s_c_iof_7 [31]
     {
         'contract_value': 9_555_321,
         'debit_balance': 6_680_736,
@@ -1525,76 +1743,90 @@ lista_entrada2 = [
         'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
         'legal_nature': 'pf',
         'date_0': date(2024, 7, 31),
         'date_1': date(2024, 10, 30),
         'total_loan_qitech': 7_715_403.5
     },
-    # s_c_iof_8 [25]
+    # s_c_iof_8 [32]
     {
-        'contract_value': 400_000,
-        'debit_balance': 220_000,
-        'term': 300,
-        'annual_rate': 12.99,
-        'amortization_system': 'price',
-        'has_itbi': False,
-        'has_costs': False,
-        'costs_default_simulation': 500,
-        'itbi_default_simulation': 0,
+        'contract_value': 35_000_000,
+        'debit_balance': 25_000_000,
+        'term': 120,
+        'annual_rate': 10.89,
+        'amortization_system': 'sac',
+        'has_itbi': True,
+        'has_costs': True,
         'has_iof': True,
-        'fee_itbi': 3.0,
+        'fee_itbi': 3,
         'fee_costs': 2.2,
-        'fee_volpi': 4.3,
+        'fee_volpi': 5.3,
         'fee_baas': 0.7,
-        'fee_additional_iof': 0.38,
-        'fee_basic_iof': .0041, # pf: 0.0082 ; pj: 0.0041
+        'fee_additional_iof': .38,
         'fee_basic_daily_iof_pf': .0082,
         'fee_basic_daily_iof_pj': .0041,
-        'legal_nature': 'pj',
-        'date_0': date(2025, 1, 30),
-        'date_1': date(2025, 3, 20),
-        'total_loan_qitech': 411041.66,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2025, 8, 4),
+        'date_1': date(2026, 3, 23),
+        'total_loan_qitech': 29_585_754.53
+    },
+    # s_c_8 [33]
+    {
+        'contract_value': 35_000_000,
+        'debit_balance': 25_000_000,
+        'term': 120,
+        'annual_rate': 10.89,
+        'amortization_system': 'sac',
+        'has_itbi': True,
+        'has_costs': True,
+        'has_iof': False,
+        'fee_itbi': 3,
+        'fee_costs': 2.2,
+        'fee_volpi': 5.3,
+        'fee_baas': 0.7,
+        'fee_additional_iof': .38,
+        'fee_basic_daily_iof_pf': .0082,
+        'fee_basic_daily_iof_pj': .0041,
+        'costs_default_simulation': 0,
+        'itbi_default_simulation': 0,
+        'legal_nature': 'pf',
+        'date_0': date(2025, 8, 4),
+        'date_1': date(2026, 3, 23),
+        'total_loan_qitech': 28_531_914.89
     },
 ]
 
 list = []
-count = 0
-for i in lista_entrada2[25:]:
+count_ext = 0
+summary = []
+time_start = time.time()
+for i in lista_entrada2[0:34]:
     p_i, iof_adicional, iof_basico, iof, tac_volpi, tac_baas, itbi, custas, count = total_loan(**i)
-    print('-------------------------------------------------')
-    print('empréstimo total:', p_i)
-    print('itbi:', itbi)
-    print('custas:', custas)
-    print('iof_basico:', iof_basico)
-    print('iof_adicional:', iof_adicional)
-    print('iof_total:', iof)
-    print('fee_volpi:', tac_volpi)
-    print('fee_qitech:', tac_baas)
-    print('fee_total:', tac_volpi+tac_baas)
-    print('iterações:', count)
-    print('-------------------------------------------------')
 
-    # summary[count]['total_loan'] = p_i
-    # print(count,
-          # '|',
-          # i['amortization_system'],
-          # '|',
-          # 'qitech:', i['total_loan_qitech'],
-          # 'qitech:', summary[count]['qitech'],
-          # '|',
-          # 'meu:', f"{p_i:.2f}",
-          # '|',
-        #   'dif:', f"{abs(i['total_loan_qitech'] - p_i):.3f}"
-    # )
-    # list.append(abs(i['total_loan_qitech'] - p_i))
-    # count += 1
+    res = {
+        'count': count_ext,
+        'p_i': p_i,
+        'qi': i['total_loan_qitech'],
+        'dif': p_i - i['total_loan_qitech']
+    }
+    
+    summary.append(res)
 
-# list_filtered = []
-# for index, value in enumerate(list):
-#     if value*100 > 1.7:
-#         list_filtered.append({
-#             'index': index,
-#             'value': value
-#         })
+    count_ext += 1
+time_end = time.time()
 
-# print(list_filtered)
+print('-----------------------------------------')
+print(f'Tempo execução: {(time_end-time_start):.4}s')
+print('-----------------------------------------')
+
+for r in summary:
+    print(
+        f"[{r['count']}] | "
+        f"p_i: {r['p_i']:.2f} | "
+        f"qi: {r['qi']:.2f} | "
+        f"dif: {(r['p_i'] - r['qi']):.2f}"
+    )

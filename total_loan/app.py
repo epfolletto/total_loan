@@ -1,4 +1,3 @@
-# UTILIZADO COM A ENTRADA DE DADOS ANTIGAS (SEM DIFERENCIAR PF E PJ).
 from total_loan.total_loan_sac import calculate_total_loan_sac
 from total_loan.total_loan_price import calculate_total_loan_price
 from utils import get_business_date_from

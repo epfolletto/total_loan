@@ -35,9 +35,9 @@ def calculate_total_loan_price(days, debit_balance, term, basic_iof,
         while not converg_p:
             count += 1
             if iteracao == 1:
-                iof_adicional, iof_basico, iof2, sd, pmt = create_flow(float(p1))
+                iof2, sd, pmt = create_flow(float(p1))
             else:
-                iof_adicional, iof_basico, iof2, sd, pmt = create_flow(float(p1), pmt)
+                iof2, sd, pmt = create_flow(float(p1), pmt)
 
             tac = (fee_volpi / 100 + fee_baas / 100) * p1
             p2 = debit_balance + itbi + custas + tac + iof2
@@ -72,17 +72,19 @@ def calculate_total_loan_price(days, debit_balance, term, basic_iof,
     tol1 = 0.00001
     tol2 = 0.0001
     convergencia_3 = False
-    resumo = []
     p1 = debit_balance
     pmt = None
+    iof_adicional = 0
+    iof_basico = 0
+    iof = 0
     while not convergencia_3:
         iteracao += 1
 
         p, sd, tac, count = convergencia_p(p1, tol1, iteracao, pmt)
 
         if abs(sd) < tol1:
-            return p, sd, itbi, custas, tac, iof
-
+            return p, iof_adicional, iof_basico, iof, fee_volpi*p/100, fee_baas*p/100, itbi, custas, iteracao
+            
         iof_adicional, iof_basico, iof, pmt, count = convergencia_sd(p, tol2)
         p2 = debit_balance + itbi + custas + tac + iof
 
